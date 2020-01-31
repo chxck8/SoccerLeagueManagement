@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soccer League</title>
+  </head>
+
+  <body>
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Soccer League Management</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Search Player
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- PAGE CONTENT -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <br>
+          <form id="search_form" method="GET" class="form-inline  justify-content-center">
+              <input type="search" id="search_content" class="form-control mr-sm-2" placeholder="Enter Player Name">
+              <input type="submit" class="btn btn-success my-2 my-sm-0" value="Search">
+              <br>
+          </form>
+
+        <!-- TABLE  -->
+        <br>
+        <table class="table">
+            <tbody id="players">
+        </table>
+        <br>
+
+      </div>
+    </div>
+  </div>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Javascript -->
+    <script src="app.js"></script>
+
+  </body>
+</html>
